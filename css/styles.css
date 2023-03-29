@@ -1,0 +1,19 @@
+body {
+        background-color: #7AA874;
+    }
+    input {
+        background-color: #2C3333;
+        color: #F7C04A;
+    }
+hr {
+        background-color: #EBB02D;
+        border-style: none;
+        height: 2px;
+    }
+a {
+        color: #F7C04A;
+        text-decoration: none;
+    }
+h1 {
+    color: #F7C04A;
+}
