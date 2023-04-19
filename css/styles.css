@@ -1,19 +1,121 @@
+/**********TAG SELECTOR**********/
 body {
-        background-color: #7AA874;
-    }
-    input {
-        background-color: #2C3333;
-        color: #F7C04A;
-    }
+    background-color: #7AA874;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 hr {
-        background-color: #EBB02D;
-        border-style: none;
-        height: 2px;
-    }
+    background-color: #EBB02D;
+    border-style: none;
+    height: 2px;
+}
+
 a {
-        color: #F7C04A;
-        text-decoration: none;
-    }
+    color: #F7C04A;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     color: #F7C04A;
+}
+
+/**********CLASS SELECTOR**********/
+.header {
+    -webkit-text-stroke: 0.8px #2C3333;
+    text-align: center;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    -webkit-text-stroke: 2px #F7C04A;   
+}
+.index-button {
+    font-size: 30px;
+    -webkit-text-stroke: #2C3333;
+    background-color: #2C3333;
+    color: #F7C04A;
+    border-radius: 10%;
+}
+
+.index-button:hover {
+    font-style: italic;
+    background-color: #F7C04A;
+    color: #2C3333;
+}
+.index-button:active {
+    background-color: white;
+    color: #7AA874;
+}
+
+.Contact-Info-button {
+    -webkit-text-stroke: #2C3333;
+    background-color: #2C3333;
+    color: #F7C04A;
+    border-radius: 10%;
+}
+
+.Contact-Info-button:hover {
+    font-style: italic;
+    background-color: #F7C04A;
+    color: #2C3333;
+}
+.Contact-Info-button:active {
+    background-color: white;
+    color: #7AA874;
+}
+
+.Index-Rugby-Career-Center {
+    margin-left: auto;
+    margin-right: -208%;
+}
+
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/**********ID SELECTOR**********/
+
+#Contact-Information {
+    -webkit-text-stroke: 0.8px #2C3333;
+}
+
+#index-hr {
+    border-style: none;
+    border-radius: 100%;
+    height: 4px;
+    width: 22%;
+    margin-top: -30px;
+    margin-bottom: -29px;
+}
+
+#Starting-XV {
+    text-decoration: underline;
+}
+
+#LEGENDARY {
+    -webkit-text-stroke: 0.7px #F7C04A;
+    font-size: larger;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#SPRINGBOK-LEGENDS {
+    -webkit-text-stroke: 0.8px #2C3333;
+    margin-left: auto;
+    margin-right: -75%;
+    text-align: right;
 }
